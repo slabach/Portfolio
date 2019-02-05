@@ -1,0 +1,24 @@
+{
+  "name": "developer_portfolio",
+  "version": "1.0.0",
+  "description": "Developer Portfolio",
+  "main": "app.js",
+  "dependencies": {
+    "gsap": "^2.0.2",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slabach/Portfolio.git"
+  },
+  "author": "Byron Slabach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slabach/Portfolio/issues"
+  },
+  "homepage": "https://github.com/slabach/Portfolio#readme"
+}
