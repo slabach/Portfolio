@@ -15,16 +15,31 @@
 </head>
 <body>
     
-    <div class='header'>test</div>
+    <div class='header'>
+        <div class='hdrBackground'></div>
+        <div class="photo">
 
-    <div class='home'></div>
-    <div class='projects'></div>
-    <div class='contact'></div>
+        </div>
+        <ul>
+            <li id='homeNav'>HOME</li>
+            <li id='projNav'>PROJECTS</li>
+            <li id='contNav'>CONTACT</li>
+        </ul>
+        <div class='socialLinks'>
+
+        </div>
+    </div>
+
+    <div class='bodyContent'>
+        <div class='home'>HOME</div>
+        <div class='projects'>PROJECTS</div>
+        <div class='contact'>CONTACT</div>
+    </div>
+    
 
     <div class='footer'></div>
 
 <script src="node_modules\jquery\dist\jquery.min.js"></script>
-<script src="node_modules\gsap\src\minified\TweenLite.min.js"></script>
 
 <script src="js\app.js"></script>
 </body>

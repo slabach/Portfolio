@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=contact.css.map */
+.contact {
+  display: none;
+  background-color: palegoldenrod;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/*# sourceMappingURL=contact.css.map */
