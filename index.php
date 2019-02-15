@@ -1,8 +1,8 @@
-<?
+<?php
     session_start();
 
     require_once ('php/database.php');
-    require_once ('php/contactSubmit.php');
+    // require_once ('php/contactSubmit.php');
 ?>
 
 <!DOCTYPE html>
@@ -31,7 +31,9 @@
     </div>
 
     <div class='bodyContent'>
-        <div class='home'>HOME</div>
+        <div class='home'>
+            <?php getplayers(); ?>
+        </div>
         <div class='projects'>PROJECTS</div>
         <div class='contact'>CONTACT</div>
     </div>

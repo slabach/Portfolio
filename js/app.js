@@ -8,15 +8,15 @@ function resizeEvents(evt){
 
 function navEvents(navView){
     if(navView == 1){
-        $( "#homeNav" ).css({"border-bottom-color": "#333333", "border-bottom-style": "solid", "border-bottom-width": ".5px", "color": "#99badd"});
+        $( "#homeNav" ).css({"border-bottom-color": "#131313", "border-bottom-style": "solid", "border-bottom-width": ".5px", "color": "#99badd"});
         $( "#projNav" ).removeAttr('style');
         $( "#contNav" ).removeAttr('style');
     } else if (navView == 2) {
-        $( "#projNav" ).css({"border-bottom-color": "#333333", "border-bottom-style": "solid", "border-bottom-width": ".5px", "color": "#99badd"}); 
+        $( "#projNav" ).css({"border-bottom-color": "#131313", "border-bottom-style": "solid", "border-bottom-width": ".5px", "color": "#99badd"}); 
         $( "#homeNav" ).removeAttr('style'); 
         $( "#contNav" ).removeAttr('style'); 
     } else if (navView == 3) {
-        $( "#contNav" ).css({"border-bottom-color": "#333333", "border-bottom-style": "solid", "border-bottom-width": ".5px", "color": "#99badd"});
+        $( "#contNav" ).css({"border-bottom-color": "#131313", "border-bottom-style": "solid", "border-bottom-width": ".5px", "color": "#99badd"});
         $( "#homeNav" ).removeAttr('style');
         $( "#projNav" ).removeAttr('style');
     } else {
@@ -27,7 +27,7 @@ function navEvents(navView){
 
 function addListeners(){
     var screenHeight = window.innerHeight;    
-    $( "#homeNav" ).css({"border-bottom-color": "#333333", "border-bottom-style": "solid", "border-bottom-width": ".5px", "color": "#99badd"});
+    $( "#homeNav" ).css({"border-bottom-color": "#131313", "border-bottom-style": "solid", "border-bottom-width": ".5px", "color": "#99badd"});
 
     $('#homeNav').click( e => {
         if( ($('.bodyContent div:visible')[0]) == ($('.bodyContent .home')[0]) ){
