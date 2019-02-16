@@ -37,7 +37,6 @@
         <div class='projects'>PROJECTS</div>
         <div class='contact'>CONTACT</div>
     </div>
-    
 
     <div class='footer'></div>
 
