@@ -1,2 +1,2 @@
-.projects{display:none;background-color:paleturquoise;width:100%;height:100%;position:relative}
+.projects{display:-ms-grid;display:grid;-ms-grid-columns:auto auto auto;grid-template-columns:auto auto auto;width:100%;height:100%;position:relative}.projects .projectDisplay{-ms-flex-pack:distribute;justify-content:space-around}.projects .projectDisplay a{margin:auto}.projects .projectDisplay a img{margin:auto;width:50%}.projects .projectDisplay:nth-child(odd){background-color:yellow}
 /*# sourceMappingURL=projects.min.css.map */

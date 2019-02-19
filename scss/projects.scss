@@ -1,7 +1,29 @@
 .projects{
-    display: none;
-    background-color: paleturquoise;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    // background-color: paleturquoise;
     width: 100%;
     height: 100%;
     position: relative;
+    // justify-content: space-evenly;
+
+    .projectDisplay{
+        /* height: 40%;
+        width: 33%; */
+        // margin: auto;
+        justify-content: space-around;
+
+        a{
+            margin: auto;
+            img{
+                margin: auto;
+                width: 50%;
+            }
+        }
+    
+        &:nth-child(odd){
+            background-color: yellow;
+        }
+
+    }
 }
