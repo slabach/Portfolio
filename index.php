@@ -33,13 +33,13 @@
     </div>
 
     <div class='bodyContent'>
-        <!-- <div class='home'>
+        <div class='home mostVisible'>
             HOME
-        </div> -->
-        <div class='projects'>
+        </div>
+        <div class='projects mostVisible'>
             <?php getProjects(); ?>
         </div>
-        <!-- <div class='contact'>CONTACT</div> -->
+        <div class='contact mostVisible'>CONTACT</div>
     </div>
 
     <div class='footer'></div>

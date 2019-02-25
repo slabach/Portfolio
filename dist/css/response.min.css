@@ -1,1 +1,2 @@
-/* No CSS *//*# sourceMappingURL=response.min.css.map */
+@media all and (max-width: 1750px){.bodyContent .projects{-ms-grid-columns:(minmax(250px, 1fr))[3];grid-template-columns:repeat(3, minmax(250px, 1fr))}}@media all and (max-width: 1450px){.bodyContent .projects{-ms-grid-columns:(minmax(250px, 1fr))[2];grid-template-columns:repeat(2, minmax(250px, 1fr))}}@media all and (max-width: 1050px){.bodyContent .projects{-ms-grid-columns:(minmax(250px, 1fr))[1];grid-template-columns:repeat(1, minmax(250px, 1fr))}}
+/*# sourceMappingURL=response.min.css.map */

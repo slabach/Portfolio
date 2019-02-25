@@ -23,8 +23,8 @@ class Project{
         return $this->output;
       }
 
-    // Get categories
-    public function read() {
+    // Get projects
+    public function readAll() {
         // Create query
         $query = 'SELECT * FROM `PROJECTS`';
         // Prepare statement
@@ -44,8 +44,8 @@ class Project{
     {
         $this->output = "<div class='projectDisplay'>";
         $this->output .= "<a href='".$this->projLink."' target='_blank'><img src='".$this->projImg."'></a>";
-        $this->output .= "<h2 class='projTitle'>".$this->projTitle."</h3>";
-        $this->output .= "<h3 class='projTimeFrame'>".$this->projTimeFrame."</h3>";
+        $this->output .= "<h1 class='projTitle'>".$this->projTitle."</h1>";
+        $this->output .= "<h4 class='projTimeFrame'>".$this->projTimeFrame."</h4>";
         $this->output .= "<h3 class='projTech'>".$this->projTech."</h3>";
         $this->output .= "</div>";
 
@@ -62,7 +62,7 @@ function getProjects(){
     // Instantiate project object
     $project = new Project($db);
     // Project read query
-    $result = $project->read();
+    $result = $project->readAll();
 
     // Get row count
     $num = $result->rowCount();

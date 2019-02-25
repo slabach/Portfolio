@@ -1,7 +1,28 @@
-@media all and (max-width : 1320px) {
-
+@media all and (max-width : 1750px) {
+    .bodyContent{
+        .projects{
+            grid-template-columns: repeat(3, minmax(250px, 1fr));
+        }
+    }   
   
 }
+@media all and (max-width : 1450px) {
+    .bodyContent{
+        .projects{
+            grid-template-columns: repeat(2, minmax(250px, 1fr));
+        }
+    }   
+  
+}
+
+@media all and (max-width : 1050px) {
+    .bodyContent{
+        .projects{
+            grid-template-columns: repeat(1, minmax(250px, 1fr));
+        }
+    }     
+}
+
 
 @media all and (max-width : 1280px) {
 

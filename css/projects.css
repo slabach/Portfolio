@@ -1,8 +1,50 @@
 .projects {
-  display: none;
-  background-color: paleturquoise;
-  width: 100%;
-  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[3];
+      grid-template-columns: repeat(3, minmax(250px, 1fr));
+  grid-gap: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: relative;
+  grid-auto-flow: row;
+  place-items: center center;
+  min-height: 100vh;
+  padding: 15px 10px;
+}
+
+.projects .projectDisplay {
+  height: 100%;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 5fr 1fr 1fr 1fr;
+  place-items: center center;
+  padding: 5px 15px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: white;
+  cursor: pointer;
+  color: #4b4b4b;
+}
+
+.projects .projectDisplay a {
+  margin: auto;
+  word-wrap: normal;
+}
+
+.projects .projectDisplay a img {
+  margin: auto;
+  height: 250px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.projects .projectDisplay:hover {
+  -webkit-box-shadow: 3px 8px 10px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 8px 10px 0 rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=projects.css.map */
